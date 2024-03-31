@@ -6,3 +6,10 @@ hr{color: white;}
     color: white;}
 
     .fondo{background-color: black;}
+
+.btn-round.active,
+.btn-round:focus,
+.btn-round:active {
+    background-color:#373A3C31;
+    color: #fff;
+}

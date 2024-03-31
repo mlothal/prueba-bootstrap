@@ -16,3 +16,9 @@ document.querySelectorAll('.navbar a').forEach(anchor => {
         scrollToSection(targetId);
     });
 });
+
+$(document).ready(function(){
+    $("#enviarCorreo").click(function(){
+        alert("El mensaje de contacto fue enviado correctamente...");
+    });
+});
